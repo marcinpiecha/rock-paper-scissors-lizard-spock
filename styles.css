@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+header {
+    background: white;
+    padding: 20px;
+    background-color: lightgray;
+}
+header > h1 {
+    color: #36538C;
+    text-align: center;
+    font-family: sans-serif;
+}
+h2 {
+     color: black;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+}
+h3 {
+    color: grey;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+}
+.score-board {
+    background-color: black;
+    margin:20px auto;
+    border: 5px solid lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    width:200px;
+    color: white;
+    font-size: 24px;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+.badge {
+    background-color: lightcoral;
+    font-size: 14px;
+    padding: 2px 5px;
+    font font-family: sans-serif;
+}
+#user-label {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+#computer-label {
+    position: absolute;
+    top: 20px;
+    right: -20px;
+}
+.result {
+    font-size: 30px;
+    color: #36538C;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+}
+.choices {
+    margin: 50px 0;
+    text-align: center;
+}
+.choice {
+    border: 5px solid #36538C;
+    margin: 0 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    cursor:pointer;
+    border: 5px solid black;
+}
+.greenglow {
+    border: 5px solid green;
+    box-shadow: 0 0 30px lightgreen;
+}
+.redglow {
+    border: 5px solid red;
+    box-shadow: 0 0 30px lightcoral;
+}
+.greyglow{
+    border: 5px solid grey;
+    box-shadow: 0 0 30px lightgray;
+}
